@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ViewStudent {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: flex-start;
+}
+
+.Header {
+  margin: 1rem;
+}
+
+.StudentsGrid {
+  margin: 1rem 0;
+  width: 100%;
+  padding: 0 10rem;
+
+}
+
+.inputUpdate {
+  width: 8em;
+  text-align: center;
+}
+
+.btnView {
+  /* width: 4.3em; */
+  margin: 0.04rem;
+  text-align: center;
+}

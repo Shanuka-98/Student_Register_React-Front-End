@@ -1,0 +1,42 @@
+.AddStudent{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.Header{
+ margin: 1rem;
+}
+
+.Form{
+    margin-top: 1rem;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.DatePicker{
+    padding: 0.8rem;
+    width: 100%;
+    height: 3.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #212529;
+}
+input[type=text]:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  }
+
+.alert{
+    width: 100%;
+    height: 3.5em;
+    text-Align: center;
+}
